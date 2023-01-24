@@ -99,7 +99,7 @@ def gerar_prontuario():
         docs.save(f"Prontuarios concluidos/Prontuário - {NOME}.docx")
         print(f"Prontuário {NOME} feito com sucesso!")
 #### Para o código funcionar DESCOMENTE a função 'gerar_prontuario'
-# gerar_prontuario()
+gerar_prontuario()
 
 ################################ FRONT TKINTER #################################
 janela = Tk()
